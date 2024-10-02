@@ -5,4 +5,6 @@ rebar3 compile
 rebar3 shell
 ```
 </br>
-[Video de Prueba](https://youtu.be/DL0Cdknz_a0)
+[Video de Prueba]
+</br>
+(https://youtu.be/DL0Cdknz_a0)
