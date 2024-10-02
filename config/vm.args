@@ -1,0 +1,6 @@
+-sname cowboy_app
+
+-setcookie cowboy_app_cookie
+
++K true
++A30

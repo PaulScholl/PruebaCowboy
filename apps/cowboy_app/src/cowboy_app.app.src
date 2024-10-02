@@ -1,0 +1,17 @@
+{application, cowboy_app, [
+    {description, "An OTP application"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {cowboy_app_app, []}},
+    %%En las aplicaciones debemos agregar cowboy ya que sera 
+    %%el servicion principal que ocuparemos
+    {applications, [
+        kernel,
+        stdlib,
+        cowboy
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+ ]}.
